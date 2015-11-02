@@ -1,0 +1,34 @@
+{
+  "name": "voskobovich/yii2-rest-collection-provider",
+  "description": "Implement data provider without pagination. Movement through the collection using limit and offset. For Yii2",
+  "keywords": [
+    "data",
+    "collection",
+    "provider",
+    "yii2"
+  ],
+  "homepage": "https://github.com/voskobovich/yii2-rest-collection-provider",
+  "type": "yii2-data",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/voskobovich/yii2-rest-collection-provider/issues",
+    "source": "https://github.com/voskobovich/yii2-rest-collection-provider"
+  },
+  "authors": [
+    {
+      "name": "Vitaly Voskobovich",
+      "email": "vitaly@voskobovich.com",
+      "homepage": "http://voskobovich.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "voskobovich\\rest\\data\\": ""
+    }
+  }
+}
