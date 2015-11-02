@@ -1,6 +1,6 @@
 <?php
 
-namespace voskobovich\rest\data;
+namespace voskobovich\data;
 
 use Yii;
 use yii\base\Component;
@@ -10,7 +10,7 @@ use yii\data\Sort;
 
 /**
  * Class BaseCollectionProvider
- * @package voskobovich\rest\data
+ * @package voskobovich\data
  */
 abstract class BaseCollectionProvider extends Component implements CollectionProviderInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace voskobovich\rest\data;
+namespace voskobovich\data;
 
 use yii\data\Sort;
 

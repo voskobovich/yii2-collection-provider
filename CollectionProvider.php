@@ -1,6 +1,6 @@
 <?php
 
-namespace voskobovich\rest\data;
+namespace voskobovich\data;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -13,7 +13,7 @@ use yii\di\Instance;
 
 /**
  * Class CollectionProvider
- * @package voskobovich\rest\data
+ * @package voskobovich\data
  */
 class CollectionProvider extends BaseCollectionProvider
 {
