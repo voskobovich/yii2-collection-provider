@@ -15,7 +15,7 @@ use yii\di\Instance;
  * Class CollectionProvider
  * @package voskobovich\data
  */
-class CollectionProvider extends BaseCollectionProvider
+class ActiveCollectionProvider extends BaseCollectionProvider
 {
     /**
      * @var QueryInterface the query that is used to fetch data models and [[totalCount]]
