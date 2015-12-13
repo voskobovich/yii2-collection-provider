@@ -28,7 +28,8 @@
   },
   "autoload": {
     "psr-4": {
-      "voskobovich\\data\\": "source"
+      "voskobovich\\data\\": "data",
+      "voskobovich\\rest\\": "rest"
     }
   }
 }
